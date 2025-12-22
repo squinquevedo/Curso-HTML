@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--se usa style para declarar un estilo a la etiqueta que seleccionemos, en este caso cambio de fuente-->
+
+    <!--con el comando font family podemos seleccionar una de las fuentes que ya esten instaladas en el S.O-->
+
+    <!--con el comando @font-face podemos insertar fuentes externas en formato .ttf preferiblemente-->
+
+    <!--con el comando @import url se pueden extraer fuentes por medio de enlaces indicando el tipo de formato, luego en el font-family se pone solo el nombre de la fuente-->
+    <style>
+        @font-face {
+            font-family: 'Halo';
+            src: url(resources/Halo.ttf);
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap' format('ttf'));
+        h1{
+            font-family: 'Halo';
+        }
+        p{
+            font-family: 'Roboto';
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>titulo de ejemplo</h1>
+    <p>texto de ejemplo</p>
+</body>
+</html>
