@@ -1,0 +1,13 @@
+h1 {
+    font-size: 35px;
+    color: blue;
+}
+
+
+.destacado {
+    font-weight: 800;
+}
+
+#nuevo-id {
+    color: chartreuse;
+}
